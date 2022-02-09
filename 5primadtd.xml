@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE TEI SYSTEM "./5primadtd.dtd">
+<!--
+Definire i seguenti elementi:
+elemento root: TEI
+elementi figli:
+header (obbligatorio una occorrenza)
+facsimile (opzionale una occorrenza)
+text (obbligatorio almeno una occorrenza)
+Gli elementi header, facsimile e text hanno tutti un content
+model testuale
+
+	file : 5primadtd.xml
+	codificatore : Andrea Meglio
+	data : 05/02/2022
+	corso di laurea : Informatica umanistica
+-->
+
+<TEI>
+	<header>
+		Testo1
+	</header>
+	
+	<text>
+		Testo2
+	</text>
+	
+	<text>
+		Testo3
+	</text>
+</TEI>
+
+
+
+
+
+
