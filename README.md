@@ -1,1 +1,1 @@
-Carico gli esercizi sul linguaggio XML-TEI per l'esame di Codifica dei testi di Informatica umanistica
+Carico gli esercizi sul linguaggio XML-TEI per l'esame di Codifica dei testi di Informatica umanistica dell'Università di Pisa.
