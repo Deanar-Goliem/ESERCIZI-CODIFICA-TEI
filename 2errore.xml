@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--
+XML Element: hierarchical relationship - Esercizio
+Scrivere e fare il check di un xml non opportunamente annidato
+
+	file : 2errore.xml
+	codificatore : Andrea Meglio
+	data : 05/02/2022
+	corso di laurea : Informatica umanistica
+-->
+
+<TEI>
+
+	<teiCorpus>
+
+</TEI>
+
+	</teiCorpus>
+
+<!--
+	
+	ESECUZIONE DEL PROGRAMMA XMLLINT
+	xmllint 2errore.xml
+	
+	DESCRIZIONE DELL'ERRORE
+2errore.xml:16: parser error : Opening and ending tag mismatch: teiCorpus line 14 and TEI
+</TEI>
+      ^
+2errore.xml:18: parser error : Opening and ending tag mismatch: TEI line 12 and teiCorpus
+	</teiCorpus>
+	            ^
+	
+-->
+
+
+
+
+
+

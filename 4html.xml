@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--
+Esempio ed esercizio
+Inserire all’interno di un tag un frammento di codice HTML
+<htmlCode> <![CDATA[ <h1>Capitolo Primo</h1>
+<h2>Sezione Seconda</h2> ]]> </htmlCode>
+
+	file : 4html.xml
+	codificatore : Andrea Meglio
+	data : 05/02/2022
+	corso di laurea : Informatica umanistica
+-->
+
+<TEI>
+
+	<html>
+		<![CDATA[<!DOCTYPE html>
+			<html>
+				<head>
+					<title>
+						Benvenuti nella HOME
+					</title>
+				</head>
+				<body>
+				</body>
+			</html>]]>
+	</html>
+
+</TEI>
+
+
+
+
+
+

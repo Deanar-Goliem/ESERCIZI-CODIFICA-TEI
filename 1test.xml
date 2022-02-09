@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--
+Esercizio prologo
+Creare un file .xml ed inserire un prologo con la dichiarazione
+XML e un commento con le vostre informazioni.
+Esercizio prologo
+This document contains data on Codifica di
+Testi.
+Filename: project.xml
+Author: your name
+Date: today’s date
+
+	file : 1text.xml
+	codificatore : Andrea Meglio
+	data : 02/02/2022
+	corso di laurea : Informatica umanistica
+-->
+<TEI>
+</TEI>
+
+
+
+
+
