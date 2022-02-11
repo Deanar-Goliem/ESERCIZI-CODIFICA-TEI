@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE TEI SYSTEM "./tei_all.dtd">
+<!--
+Esercizio
+Marcare un testo plain text di circa 3000 caratteri a
+piacere.
+@inserire prologo XML
+@marcare la struttura usando gli elementi fin qui descritti in
+particolare marcare tutti i paragrafi usando <p> e la
+struttura editoriale usando <div>
+@verificare che sia ben formato con xmllint
+@salvare il file XML su github
+
+	file : 7marcatesto.xml
+	codificatore : Andrea Meglio
+	data : 10/02/2022
+	corso di laurea : Informatica umanistica
+-->
+
+<TEI>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Economia dei Mercati Finanziari (versione digitale)</title>
+			
+				<respStmt>
+					<resp>Codificato da</resp>
+					<name>Andrea Meglio</name>
+				</respStmt>
+			</titleStmt>
+			
+			<publicationStmt>
+				<publisher>Unipi</publisher>
+				<date>2018-12-09</date>
+				
+				<availability status = "unknown">
+					<p></p>
+				</availability>
+			</publicationStmt>
+			
+			<sourceDesc>
+				<bibl>
+					<title>Economia dei Mercati Finanziari</title>
+					<author>Professori di Economia e Management (meglio non diffondere troppe informazioni personali)</author>
+					<publisher>Unipi</publisher>
+					<date>2018-12-09</date>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	
+	<text>
+		<body>
+			<div n = "1" type = "chapter">
+				<pb n = "7" />
+				<head><lb />Capitolo 1<lb />Economia dei mercati finanziari:<lb />aspetti introduttivi</head>
+				
+				<div n = "1.1" type = "section">
+					<head><lb />I Mercati finanziari</head>
+					
+					<p><lb />I <emph>mercati finanziari</emph> sono i mercati in cui si scambiano <emph>fondi prestabili</emph> o, più sem-
+					<lb />plicemente, risorse finanziarie. Tali mercati svolgono la funzione essenziale di trasferire
+					<lb />risorse finanziarie da chi ne dispone in eccesso, rispetto ai suoi bisogni del momento, a
+					<lb />chi, viceversa, ne necessita un ammontare maggiore rispetto a quelle che ha attualmente
+					<lb />disposizione. I primi soggetti, cioè coloro che risparmiano e <emph>danno a prestito fondi</emph>, ven-
+					<lb />gono sovente definiti <emph>unità in surplus</emph> o <emph>creditori</emph>, mentre i secondi, che <emph>prendono a
+					<lb />prestito fondi</emph>, sono detti <emph>unità in deficit</emph> o <emph>debitori</emph>. In altri termini, nell'ambito dei
+					<lb />mercati finanziari, i primi soggetti esprimono l'<emph>offerta</emph>, mentre i secondi la <emph>domanda</emph> di
+					<lb />fondi prestabili. Dal lato dell'offerta, tra i principali creditori si annoverano generalmen-
+					<lb />te le famiglie, ma talvolta anche le imprese o certe amministrazioni pubbliche (governi
+					<lb />nazionali o esteri) possono disporre di eccedenze finanziarie rispetto ai propri effettivi
+					<lb />bisogni e decidere di investirle prestandole a chi ne fa domanda.<note n = "1" place = "bottom"><lb />1Un esempio è costituito dai cosiddetti <emph>fondi sovrani</emph> che rappresentano speciali istituzioni di inve-
+<lb />stimento pubbliche controllate direttamente dai governi dei relativi paesi per investire surplus fiscali o
+<lb />riserve di valuta estera.</note>Dal lato della domanda,
+					<lb />invece, i più importanti debitori sono le imprese e i governi. Le prime, infatti, necessitano
+					<lb />di ingenti risorse per finanziaregli investimenti connessi alla propria attività produttiva
+					<lb />e commerciale, mentre i secondi ricorrono all'indebitamento per finanziare la spesa pub-
+					<lb />blica che eccede le entrate fiscali. Peraltro, non raramente anche le famiglie ricorrono
+					<lb />all'indebitamento per finanziare livelli di consumo superiori ai propri redditi correnti o
+					<lb />l'acquisto di beni durevoli (ad esempio, contraendo un mutuo per l'acquisto della casa).
+					<lb />I mercati finanziari possono svolgere un ruolo fondamentale per il buon funzionamento
+					<pb n = "8" /><lb />dell'economia. Ciò in quanto, spesso, i soggetti che dispongono di risorse finanziarie in
+					<lb />eccesso rispetto al loro fabbisogno non coincidono con quelli con le opportunità di investi-
+					<lb />mento più vantaggiose (che, peraltro, non disponendo delle risorse necessarie, potrebbero
+					<lb />non essere in grado di realizzarle). In questi casi, dunque, un trasferimento di risorse dai
+					<lb />primi soggetti ai secondi potrebbe rappresentare l'unica soluzione per sfruttare le oppor-
+					<lb />tunità di investimento, con potenziali conseguenze positiveper i soggetti coinvolti nello
+					<lb />scambio e, più in generale, per l'economia nel suo complesso.</p>
+					
+					<p><lb />I mercati finanziari oltre a configurarsi come luogo "fisico" o, come sempre più frequentemen-
+					<lb />te, per effetto dello sviluppo delle transazioni via computer (<emph>e-finance</emph>), "virtuale", dove
+					<lb />si incontrano soggetti che offrono e domandano risorse finanziarie, costituiscono (al pari
+					<lb />di ogni mercato di qualsiasi bene o servizio) anche un insieme di <emph>meccanismi</emph> e <emph>strumenti
+					<lb />istituzionali</emph> che facilitano gli scambi tra tali soggetti. In generale, uno strumento finan-
+					<lb />ziario è un <emph>titolo</emph> emesso da un soggetto che domanda risorse finanziarie e che conferisce
+					<lb />a colui che l'"acquista" (prestando così risorse al soggetto che lo ha emesso) un diritto
+					<lb />sui <emph>redditi futuri</emph> dell'emittente o sul suo <emph>patrimonio</emph>. Chiaramente, tale titolo costituisce
+					<lb />un'<emph>attività finanziaria</emph> per il soggetto che l'ha acquistato (o sottoscritto) e, viceversa,
+					<lb />una <emph>passività finanziaria</emph> per quello che lo ha emesso. Per effetto dell'<emph>innovazione fi-
+					<lb />nanziaria</emph> che, a seguito dei cambiamenti tecnologici e istituzionali, ha introdotto nuove
+					<lb />tipologie di strumenti finanziari, esistono oggi diversi titoli finanziari che differiscono, an-
+					<lb />che sostanzialmente, gli uni dagli altri; per tale motivo si parla espressamente di mercati
+					<lb />finanziari (al plurale), in quanto, almeno in linea concettuale, è possibile individuare un
+					<lb />distinto mercato (con un proprio peculiare funzionamento) per ognuno dei diversi titoli di
+					<lb />riferimento. La lista che segue, sebbene non esaustiva, individua alcuni mercati dei titoli
+					<lb />finanziari più importanti, evidenziandone alcune delle caratteristiche peculiari.
+					</p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>
+
+
+
+
+
+
